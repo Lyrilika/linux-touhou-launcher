@@ -1,6 +1,6 @@
 # AI-ASSISTED PROJECT
 
-During the development of this project, I encountered a number of bugs and technical issues that I was unable to resolve on my own, so I used AI to help with debugging and troubleshooting. AI was also used as a learning aid to help me understand programming concepts, libraries, and technologies that I was not previously familiar with.
+During the development of this project, I encountered a number of bugs and technical issues that I was unable to resolve on my own, so I used AI to help with debugging and troubleshooting. AI was also used as a learning aid to help me understand concepts I was not previously familiar with.
 
 AI was used as a tool alongside my own development, testing, and decision-making
 
