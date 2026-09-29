@@ -1,0 +1,123 @@
+.window {
+    background-color: @theme_bg_color;
+    color: @theme_fg_color;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: @theme_fg_color;
+    text-align: center;
+}
+
+.card-border {
+    border-radius: 10px;
+    transition: all 0.15s ease;
+    background-color: alpha(@theme_fg_color, 0.03);
+}
+
+.card-border:hover {
+    box-shadow: 0 8px 24px alpha(@theme_selected_bg_color, 0.3);
+    transform: translateY(-4px);
+    border-color: @theme_selected_bg_color !important;
+}
+
+.disabled-card {
+    opacity: 0.5;
+    border: 2px solid @borders;
+    pointer-events: auto;
+}
+
+.enabled-card {
+    border: 2px solid @borders;
+    background-color: alpha(@theme_fg_color, 0.05);
+}
+
+.thumbnail {
+    border-radius: 6px;
+    margin: 6px;
+}
+
+.heading-enabled {
+    font-weight: bold;
+    font-size: 11px;
+    color: @theme_fg_color;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.heading-disabled {
+    font-weight: bold;
+    font-size: 10px;
+    color: alpha(@theme_fg_color, 0.55);
+    margin-top: 4px;
+    text-align: center;
+}
+
+.settings-label {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.settings-button {
+    background-color: alpha(@theme_bg_color, 0.75);
+    color: @theme_fg_color;
+    margin: 8px;
+    min-width: 30px;
+    min-height: 30px;
+    padding: 0;
+    border: 1px solid @borders;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+    opacity: 0.55;
+    transition: opacity 0.15s ease, background-color 0.15s ease,
+        box-shadow 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.card-border:hover .settings-button {
+    opacity: 1;
+}
+
+.settings-button:hover {
+    background-color: @theme_selected_bg_color;
+    color: @theme_selected_fg_color;
+    border-color: @theme_selected_bg_color;
+    box-shadow: 0 4px 12px alpha(@theme_selected_bg_color, 0.55);
+}
+
+.settings-button:active {
+    background-color: alpha(@theme_selected_bg_color, 0.8);
+}
+
+.popover-heading {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.runner-downloading {
+    color: @theme_selected_bg_color;
+}
+
+.download-progress {
+    margin-top: 2px;
+}
+
+.running-bar {
+    min-height: 26px;
+    max-height: 26px;
+    padding: 1px 5px;
+    border: 1px solid @borders;
+    border-radius: 5px;
+    background-color: @theme_bg_color;
+}
+
+.running-name {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.running-status {
+    font-size: 9px;
+    opacity: 0.6;
+}
