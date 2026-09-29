@@ -53,4 +53,4 @@ For questions, suggestions, or general discussion about the project, you can use
 
 This project was inspired by these two amazing projects:
 - [A Digital Project - Touhou Launcher](https://a-digital-project.github.io/launcher/)
-- [9Launcher](https://github.com/wearrrrr/9Launcher).
+- [9Launcher](https://github.com/wearrrrr/9Launcher)
