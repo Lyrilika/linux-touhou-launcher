@@ -12,6 +12,10 @@ The goal of this project is to provide a simple and convenient way to manage and
 
 This project is still under active development, so some features may be incomplete or subject to change.
 
+## Note
+
+This project does not distribute any game files, users must provide their own game files to use with the launcher
+
 ## To-do list
 
 * Fangames tab
