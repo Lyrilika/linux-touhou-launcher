@@ -18,6 +18,8 @@ This project is still under active development, so some features may be incomple
 * Printworks tab
 * Controller support for navigating the launcher interface
 * New Classics Remake
+* AppImage release
+* Flatpak release
 
 ## Installation
 
